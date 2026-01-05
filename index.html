@@ -5,8 +5,8 @@
   <title>Elliott Duke's Projects</title>
   <style>
     body {
-      background-color: #0b1a2e; /* dark blue */
-      color: #f5d76e; /* dark yellow */
+      background-color: #f2f2f2; /* light gray */
+      color: #000; /* black text */
       font-family: Arial, sans-serif;
       text-align: center;
       margin: 0;
@@ -19,19 +19,30 @@
 
     h2 {
       margin-bottom: 10px;
-      color: #8b1e1e; /* dark red */
-    }
-
-    table {
-      margin: 0 auto; /* centers table */
-      border-collapse: collapse;
-      background-color: #f5d76e; /* black */
       color: #000;
     }
 
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #ffffff; /* white table background */
+      color: #000;
+      max-width: 900px;
+    }
+
     td {
-      border: 2px solid #8b1e1e;
+      border: 2px solid #0b1a2e; /* dark blue outlines */
       padding: 15px 25px;
+      vertical-align: top;
+    }
+
+    a {
+      color: #4aa3ff; /* light blue links */
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -42,15 +53,26 @@
   <h2>Data Science Project</h2>
   <table>
     <tr>
-      <td>Project Description: In a group project for my CMSC320 (Introduction to Data Science) course, I led my team in building an end-to-end data science pipeline analyzing 9,700+ films by integrating Letterboxd and TMDB data to identify and quantify which movie attributes most influence audience ratings. We implemented and evaluated multiple regression models covered in class, ultimately optimizing a Random Forest model to predict ratings and highlight influential features.</td>
-      <td>Technical Challenges: Addressed challenges such as interpreting the TMDB data schema and accurately merging Letterboxd and TMDB datasets using title and release date, resolving inconsistencies across sources. Ensured data quality by removing duplicates, handling missing values, and mitigating outliers to support reliable analysis.</td>
+      <td>
+        <strong>Project Description:</strong><br>
+        In a group project for my CMSC320 (Introduction to Data Science) course, I led my team in building an end-to-end data science pipeline analyzing 9,700+ films by integrating Letterboxd and TMDB data to identify and quantify which movie attributes most influence audience ratings. We implemented and evaluated multiple regression models covered in class, ultimately optimizing a Random Forest model to predict ratings and highlight influential features.
+      </td>
+      <td>
+        <strong>Technical Challenges:</strong><br>
+        Addressed challenges such as interpreting the TMDB data schema and accurately merging Letterboxd and TMDB datasets using title and release date, resolving inconsistencies across sources. Ensured data quality by removing duplicates, handling missing values, and mitigating outliers to support reliable analysis.
+      </td>
     </tr>
     <tr>
-      <td>Tools Used: Python, Pandas, NumPy, SQLite, Matplotlib, Scikit-Learn, Pytorch</td>
-      <td>Project Link: link!</td>
+      <td>
+        <strong>Tools Used:</strong><br>
+        Python, Pandas, NumPy, SQLite, Matplotlib, Scikit-Learn, PyTorch
+      </td>
+      <td>
+        <strong>Project Link:</strong><br>
+        <a href="#">link!</a>
+      </td>
     </tr>
   </table>
 
 </body>
 </html>
-
